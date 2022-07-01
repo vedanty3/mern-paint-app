@@ -32,5 +32,3 @@ const validate = (data) => {
 };
 
 module.exports = { Consumer, validate };
-
-// 00:08:00
