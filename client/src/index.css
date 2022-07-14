@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all ease 0.3s;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 236, 238);
+  overflow: hidden;
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  background-color: white;
+  padding: 1rem 3rem;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+  border-top: rgb(66, 246, 46) 0.5rem solid;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: rgb(66, 246, 46);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(19, 165, 2);
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(43, 7, 111);
+}
+
+.private button {
+  background-color: black;
+  border-radius: 16px;
+  border: 1px solid black;
+}
+
+.private {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 600px;
+  margin-left: 1400px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
