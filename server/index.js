@@ -9,7 +9,11 @@ const PORT = process.env.PORT || 5000;
 dotenv.config();
 const app = express();
 
-app.listen(5000, () =>
+app.get("/", (req, res) => {
+  res.send("Troubleshooting...");
+});
+
+app.listen(PORT, () =>
   console.log(`Server running at port http://localhost:${PORT}/`)
 );
 
