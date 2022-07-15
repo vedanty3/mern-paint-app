@@ -10,3 +10,8 @@
 * ***MongoDB***
 
 > ***Snapshot of app:*** 
+
+
+<h1 align="center">
+	<img alt="Final Homepage" src="https://github.com/vedantyetekar7/mern-paint-app/blob/main/img/Paint%20App%20-%20Google%20Chrome%2015-07-2022%2017_01_18.png"/>
+</h1>
