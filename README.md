@@ -1,1 +1,2 @@
-> ### ***MERN Paint Application 🖌️🎨***
+### ***MERN Paint Application 🖌️🎨***
+-------------
