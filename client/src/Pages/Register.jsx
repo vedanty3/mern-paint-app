@@ -11,7 +11,7 @@ const Register = () => {
   const navigate = useNavigate();
 
   const generateError = (error) =>
-    toast.error(error, { position: "bottom-right" });
+    toast.error(error, { position: "bottom-right", theme: "dark" });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
